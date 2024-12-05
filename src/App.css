@@ -1,0 +1,113 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 4px 2px -2px gray;
+}
+
+.logo {
+  font-size: 3rem;
+  font-family: 'HakgyoansimDunggeunmisoTTF-B';
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.nav ul li {
+  cursor: pointer;
+}
+
+.profile {
+  position: relative;
+}
+.profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+.profile img:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.profile-submenu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 0.5rem 0;
+  z-index: 10;
+  width: 150px;
+}
+
+.profile-submenu ul {
+  list-style: none;
+  cursor: pointer;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.submenu-item {
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  width: 100%;
+  display: inline-block;
+  margin: 10px auto;
+  padding: 0;
+}
+
+.submenu-item:hover {
+  background-color: #f0f0f0;
+}
+
+.banner-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.banner img {
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.arrow {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.recommend-section {
+  padding: 2rem;
+}
+
+.recommend-list {
+  display: flex;
+  gap: 1rem;
+}
+
+.recommend-item {
+  text-align: center;
+}
+
+.recommend-item img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
